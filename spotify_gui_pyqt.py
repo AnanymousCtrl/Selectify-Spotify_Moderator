@@ -13,7 +13,7 @@ from spotify_token_manager import SpotifyTokenManager
 class SpotifyLanguagePlayerApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Spotify: In-My_Control")
+        self.setWindowTitle("Spotify: My-Choice")
 
         client_id = '7240f6b32424485991cda36824b43683'
         client_secret = 'cd6fb4f3e2e44d82b99114f41762ef90'
