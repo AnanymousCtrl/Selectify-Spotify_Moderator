@@ -16,9 +16,9 @@ class SpotifyLanguagePlayerApp(QWidget):
         self.setWindowTitle("Spotify: My-Choice")
 
         
-        client_id = 'YOUR_CLIENT_ID'
-        client_secret = 'YOUR_CLIENT_SECRET'
-        refresh_token = 'YOUR_REFRESH-TOKEN'
+        client_id = '7240f6b32424485991cda36824b43683'
+        client_secret = 'cd6fb4f3e2e44d82b99114f41762ef90'
+        refresh_token = 'AQDLlMP8c9t9Jha-5MJEb561UaXx1lBajP4nxsnbiyFbskj1osvodiHmVKgx4DzXN466pnoAWkXTwFszROhgrnolMFJTbZnv6iwpAbU5qaS52y80v3Fb5Ez_xnFsM1VjRgU'
 
         self.token_manager = SpotifyTokenManager(client_id, client_secret, refresh_token)
 

@@ -28,7 +28,7 @@ class SpotifyTokenManager:
             token_info = response.json()
             self.access_token = token_info['access_token']
             expires_in = token_info.get('expires_in', 3600)
-            self.token_expires_at = time.time() + expires_in - 60  # Refresh 1 min before expiry
+            self.token_expires_at = time.time() + expires_in - 60  
         else:
             raise Exception(f"Failed to refresh token: {response.status_code} {response.text}")
 
