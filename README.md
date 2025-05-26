@@ -16,6 +16,7 @@ This is a Python application that connects to your Spotify account and plays son
 - spotipy
 - PyQt5
 - requests (for token refreshing)
+- a Premium Spotify account
 
 ## Setup
 
