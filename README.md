@@ -1,4 +1,4 @@
-# Spotify: My-Choice
+# Spotify: My_Choice
 
 This is a Python application that connects to your Spotify account and plays songs alternating between two specified languages. The app allows you to specify the number of songs to play from each language before switching to the other.
 
@@ -16,6 +16,7 @@ This is a Python application that connects to your Spotify account and plays son
 - spotipy
 - PyQt5
 - requests (for token refreshing)
+- a Premium Spotify account
 
 ## Setup
 
